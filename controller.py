@@ -42,7 +42,7 @@ class ControllerCadastro():
             return 1
 
         except:
-            return 3
+            return 6
 
 
 class ControllerLogin():
@@ -55,6 +55,3 @@ class ControllerLogin():
             return {'logado': True, 'id':logado[0].id}
         else:
             return False
-
-#print(ControllerCadastro.cadastrar('Caio', 'Meuemail@gmail.com', 'minhasenha'))
-print(ControllerLogin.login('Meuemail@gmail.com', 'minhasenha'))
