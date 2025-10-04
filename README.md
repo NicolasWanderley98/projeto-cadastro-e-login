@@ -30,15 +30,25 @@ Obs: Adapte esta seção conforme as tecnologias que você realmente usou no pro
 
 Estrutura do Projeto
 projeto-cadastro-e-login/
+
 ├── app/                    # (ou src/) código-fonte da aplicação
+
 │   ├── models/             # modelos de dados
+
 │   ├── routes/             # rotas (endpoints de cadastro/login)
+
 │   ├── templates/          # (se aplica) arquivos HTML / views
+
 │   ├── static/              # (se aplica) arquivos estáticos: CSS, JS, imagens
+
 │   └── __init__.py
+
 ├── config/                 # arquivos de configuração
+
 ├── requirements.txt        # dependências (Python) / package.json (Node.js)
+
 ├── README.md               # este arquivo
+
 └── LICENSE                 # licença do projeto
 
 Instalação / Execução
